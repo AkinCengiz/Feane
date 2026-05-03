@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Feane.Entity.Concrete;
-public sealed class Testimonials : BaseEntity
+public sealed class Testimonial : BaseEntity
 {
     public string Title { get; set; }
     public string FullName { get; set; }
