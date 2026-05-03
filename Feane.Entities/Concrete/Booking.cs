@@ -14,5 +14,5 @@ public sealed class Booking : BaseEntity
     public string Email { get; set; }
     public byte GuestCount { get; set; }
     public DateTime BookingDate { get; set; }
-    public bool IsConfirm { get; set; }
+    public bool IsConfirm { get; set; } = false;
 }
